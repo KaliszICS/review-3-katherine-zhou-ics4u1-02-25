@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class PracticeProblem {
 
 	public static void main(String args[]) {
+		Scanner input = new Scanner(System.in);
 		q1();
 		q2();
 		q3();
@@ -10,6 +11,7 @@ public class PracticeProblem {
 		q5();
 		q6();
 		q7();
+		input.close();
 	}
 
 	public static void q1() {
@@ -58,7 +60,7 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
 		System.out.print("In: ");
 		String s = input.nextLine();
-		System.out.println(a .equalsto("Hello World"));
+		System.out.println(s.equals("Hello World"));
 		input.close();
 
 	}
