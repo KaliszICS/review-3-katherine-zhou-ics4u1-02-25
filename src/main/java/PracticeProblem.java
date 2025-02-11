@@ -71,6 +71,7 @@ public class PracticeProblem {
 		System.out.print("In: ");
 		int n = input.nextInt();
 		input.nextLine();
+		System.out.print("In: ");
 		int m = input.nextInt();
 		input.nextLine();
 		System.out.println(n <= m);
@@ -84,9 +85,10 @@ public class PracticeProblem {
 		System.out.print("In: ");
 		double p = input.nextDouble();
 		input.nextLine();
+		System.out.print("In: ");
 		double o = input.nextDouble();
 		input.nextLine();
-		System.out.println(p >= o);
+		System.out.println(p > o);
 		input.close();
 	}
 
